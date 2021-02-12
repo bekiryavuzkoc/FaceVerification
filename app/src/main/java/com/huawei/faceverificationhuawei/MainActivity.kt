@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        MLApplication.getInstance().apiKey = "CgB6e3x96IS7xJsGLUkxfg04VuvYtLqtXD7K7DI9NESSnl5pKH570YL4D1ZUKcuzVa+N2FSsk4cLnIUPLM4Nnz+9"
+        MLApplication.getInstance().apiKey = "your_api_key"
 
         createAndSetAnalyzer()
 
